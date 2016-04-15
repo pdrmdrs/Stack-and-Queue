@@ -1,0 +1,2 @@
+//Test stack
+bool testStackCreate();
