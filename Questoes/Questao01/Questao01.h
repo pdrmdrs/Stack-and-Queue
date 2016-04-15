@@ -12,10 +12,12 @@ size
 
 */
 
-typedef struct tpStack {
+struct tpStack {
 	int top;
 	int size;
 	bool isEmpty;
-} Stack;
+};
 
-Stack stackCreate(int size);
+typedef tpStack * Stack;
+
+Stack * stackCreate(int size);

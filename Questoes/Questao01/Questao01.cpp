@@ -1,17 +1,18 @@
 #include <iostream>
 #include "Questao01.h"
 
-Stack stackCreate(int size){
-	Stack *stack = new Stack;
+Stack * stackCreate(int size){
+	Stack * stack;
+	stack = new Stack;
 
-	if(Stack == NULL){
+	if(size == 0){
 		return NULL;
-	}else if(size == 0){
+	}else if(stack == NULL){
 		return NULL;
 	}else if(stack){
-		Stack->size = size;
-		Stack->top = NULL;
-		Stack->isEmpty = true;
+		stack->size = size;
+		stack->top = NULL;
+		stack->isEmpty = true;
 	}
 
 	return stack;

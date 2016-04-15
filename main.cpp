@@ -1,7 +1,10 @@
 #include <iostream>
+
+#include "Questoes/Questao01/Questao01.h"
+
 #include "Testes/Testes.h"
 
-#include "Questao01.h"
+
 
 int main(int argc, const char * argv[]){
 	bool passed = true;
