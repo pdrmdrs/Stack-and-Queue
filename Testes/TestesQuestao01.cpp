@@ -5,6 +5,12 @@
 
 using namespace std;
 
+
+/**
+*
+*	Stack Tests
+*
+*/
 bool testStackCreate(){
 
 	cout << "\tInitializing testStackCreate()" << endl;

@@ -2,6 +2,7 @@
 #include <string.h>
 
 #include "Questoes/Questao01/Questao01.h"
+#include "Questoes/Questao02/Questao02.h"
 
 #include "Testes/Testes.h"
 
@@ -32,22 +33,22 @@ int main(int argc, const char * argv[]){
 
 		if(strcmp(argv[1], "2") == 0){//question 2
 			cout << "Question 02:" << endl;
-			/*cout << "Initializing tests..." << endl;
+			cout << "Initializing tests..." << endl;
 
 			bool passed = true;
 
-			passed = testStackCreate();
+			passed = testQueueCreate();
 
 			if(passed)
-				passed = testPush();
+				passed = testQueue();
 
 			if(passed)
-				passed = testPop();
+				passed = testDequeue();
 
 			if(passed)
-				passed = testStackDestroy();
+				passed = testQueueDestroy();
 
-			cout << "Tests finished without errors." << endl;*/
+			cout << "Tests finished without errors." << endl;
 		}
 
 		if(strcmp(argv[1], "3") == 0){//question 3
