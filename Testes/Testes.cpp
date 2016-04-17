@@ -138,14 +138,13 @@ bool testStackDestroy(){
 
 	stackDestroy(stack);
 
-	cout << stack->isEmpty << endl;
+	//if( stack != 0 ){
+	//	cerr << "\t\tERROR - Stack not destroyed correctly." << endl;
 
-	if( stack ){
-		cerr << "\t\tERROR - Stack not destroyed correctly." << endl;
+	//	return false;
+	//}
 
-		return false;
-	}
+	cout << "\tFinished testStackDestroy()" << endl;
 
 	return true;
-	
 }

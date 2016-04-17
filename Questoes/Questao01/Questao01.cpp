@@ -28,9 +28,9 @@ Stack stackCreate(int size){
 }
 
 void stackDestroy(Stack stack){//destroy the stack
-	delete stack->contents;
-
-	free(stack);
+	//delete[] stack->contents;
+	delete stack;
+	stack = 0;
 }
 
 bool push(Stack stack, int content){//push one element to the top of the stack
