@@ -1,9 +1,9 @@
 #include <iostream>
+#include <stdlib.h>
 #include "Questao01.h"
 
-Stack * stackCreate(int size){
-	Stack * stack;
-	stack = new Stack;
+Stack stackCreate(int size){
+	Stack stack = (Stack)malloc(sizeof(tpStack));
 
 	if(size == 0){
 		return NULL;

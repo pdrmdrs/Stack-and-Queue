@@ -20,4 +20,4 @@ struct tpStack {
 
 typedef tpStack * Stack;
 
-Stack * stackCreate(int size);
+Stack stackCreate(int);
