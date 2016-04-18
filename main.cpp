@@ -25,8 +25,8 @@ int main(int argc, const char * argv[]){
 			if(passed)
 				passed = testPop();
 
-			if(passed)
-				passed = testStackDestroy();
+			//if(passed)
+			//	passed = testStackDestroy();
 
 			cout << "Tests finished without errors." << endl;
 		}
@@ -45,8 +45,8 @@ int main(int argc, const char * argv[]){
 			if(passed)
 				passed = testDequeue();
 
-			if(passed)
-				passed = testQueueDestroy();
+			//if(passed)
+			//	passed = testQueueDestroy();
 
 			cout << "Tests finished without errors." << endl;
 		}
